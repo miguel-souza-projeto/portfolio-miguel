@@ -59,9 +59,24 @@ footer {
 /* Tema escuro */
 .dark-mode {
   background-color: #121212;
-  color: #eaeaea;
+  color: #eaeaea; /* letras claras */
 }
 
 .dark-mode header, .dark-mode footer {
   background-color: #222;
+  color: #eaeaea; /* letras claras no cabeçalho e rodapé */
+}
+
+.dark-mode nav a {
+  color: #80cbc4; /* links em verde claro */
+}
+
+.dark-mode section {
+  background-color: #1e1e1e;
+  color: #f5f5f5; /* texto claro dentro das seções */
+}
+
+.dark-mode button {
+  background-color: #333;
+  color: #fff;
 }
