@@ -6,14 +6,14 @@ body {
 }
 
 header {
-  background-color: #0236a5;
+  background-color: #1a237e;
   color: #fff;
   padding: 15px;
   text-align: center;
 }
 
 nav a {
-  color: #fff;
+  color: #bbdefb;
   margin: 0 10px;
   text-decoration: none;
 }
@@ -38,7 +38,7 @@ form input, form textarea {
 }
 
 button {
-  background-color: #0236a5;
+  background-color: #1a237e;
   color: #fff;
   border: none;
   padding: 10px 15px;
@@ -46,11 +46,11 @@ button {
 }
 
 button:hover {
-  background-color: #0656b1;
+  background-color: #3949ab;
 }
 
 footer {
-  background-color: #0236a5;
+  background-color: #1a237e;
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -63,12 +63,12 @@ footer {
 }
 
 .dark-mode header, .dark-mode footer {
-  background-color: #222;
+  background-color: #0d47a1;
   color: #eaeaea; /* letras claras no cabeçalho e rodapé */
 }
 
 .dark-mode nav a {
-  color: #80cbc4; /* links em verde claro */
+  color: #64b5f6; /* links em verde claro */
 }
 
 .dark-mode section {
@@ -77,6 +77,6 @@ footer {
 }
 
 .dark-mode button {
-  background-color: #333;
+  background-color: #1565c0;
   color: #fff;
 }
